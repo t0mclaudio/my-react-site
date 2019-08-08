@@ -14,6 +14,8 @@ body {
 }
 
 h1 {
+    margin: 0;
+    padding: 0;
     font-family: 'Gotham Rounded Bold';
     color: #d35400;
 }
@@ -24,6 +26,8 @@ h3 {
 }
 
 h2 {
+  margin: 0;
+  padding: 0;
   text-align: left;
   color: gray;
 }
