@@ -1,7 +1,7 @@
 {
-  "name": "my-react-boilerplate",
+  "name": "my-dev-portfolio-site",
   "version": "1.0.0",
-  "description": "My REACT Boilerplate",
+  "description": "My Dev Portfolio Site",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server"
