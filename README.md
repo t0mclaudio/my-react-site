@@ -1,3 +1,8 @@
-# t0mclaudio.github.io
-## This would be my website
-### Coming Soon!
+# My React Boilerplate
+
+I made this to quickly create a lightweight react application
+
+## To implement:
+``` npm init ```
+
+``` npm install ```
