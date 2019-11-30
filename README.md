@@ -1,8 +1,7 @@
-# My React Boilerplate
+# My Dev Portfolio Site
+by: Tom Claudio
 
-I made this to quickly create a lightweight react application
-
-## To implement:
-``` npm init ```
-
-``` npm install ```
+## Technology
+* React
+* Redux
+* Jest
