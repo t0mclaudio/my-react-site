@@ -5,8 +5,8 @@ import {
   Route,
 } from 'react-router-dom';
 
-import HomePage from './HomePage';
-import AboutPage from './AboutPage';
+import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage';
 
 export default () => (
   <Router>
