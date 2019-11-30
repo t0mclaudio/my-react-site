@@ -4,7 +4,8 @@
   "description": "My Dev Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "test": "jest"
   },
   "keywords": [
     "vanhackathon"
