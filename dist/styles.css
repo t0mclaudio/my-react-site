@@ -27,6 +27,8 @@ body {
   padding: 15px;
   text-align: center;
   margin-bottom: 15px;
+  background-color: white;
+  border-radius: 4px;
 }
 
 .m-0 {
@@ -76,4 +78,25 @@ body {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+#body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+#filters {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+}
+
+#filters p {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+#filters .tech {
+  font-size: 16px;
+  height: 32px;
 }
