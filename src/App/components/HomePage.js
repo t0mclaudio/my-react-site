@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Banner from './Banner';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 
 export default () => (
   <div>
@@ -10,6 +10,6 @@ export default () => (
       <Link to="/about-me">About Me</Link>
     </section>
     <Banner />
-    <Portfolio />
+    <Projects />
   </div>
 );

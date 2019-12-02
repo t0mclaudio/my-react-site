@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <section id="portfolio">
+  <section id="projects">
     <div className="card">
       <div className="card-img-container">
         <img src="" alt="" />

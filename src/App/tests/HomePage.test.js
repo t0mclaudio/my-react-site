@@ -6,14 +6,14 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import HomePage from '../components/HomePage';
 import Banner from '../components/Banner';
-import Portfolio from '../components/Portfolio';
+import Projects from '../components/Projects';
 
 configure({ adapter: new Adapter() });
 
 describe('Test Home Page', () => {
-  it("Contains Banner & Portfolio Component", () => {
+  it("Contains Banner & Projects Component", () => {
     let home = shallow(<HomePage />);
     expect(home.contains(<Banner />)).toBe(true);
-    expect(home.contains(<Portfolio />)).toBe(true);
+    expect(home.contains(<Projects />)).toBe(true);
   });
 })
