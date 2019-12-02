@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default props => (
+export default () => (
   <div className="project card">
     <div className="card-img-container">
       <img src="" alt="" />
@@ -11,4 +11,4 @@ export default props => (
       <p>Html, CSS, Joomla, Php</p>
     </div>
   </div>
-)
+);

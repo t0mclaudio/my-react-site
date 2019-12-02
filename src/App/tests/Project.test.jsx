@@ -1,14 +1,15 @@
 import React from 'react';
 import expect from 'expect';
+import { describe, it } from 'jest';
 import { shallow, configure } from 'enzyme';
-import Project from '../components/Project';
 import Adapter from 'enzyme-adapter-react-16';
+import Project from '../components/Project';
 
 configure({ adapter: new Adapter() });
 
 describe('Project component test', () => {
   it('Renders correctly', () => {
-   let wrapper = shallow(<Project />);
-   expect(wrapper.find(".project")).toHaveLength(1); 
-  })
-})
+    const wrapper = shallow(<Project />);
+    expect(wrapper.find('.project')).toHaveLength(1);
+  });
+});
