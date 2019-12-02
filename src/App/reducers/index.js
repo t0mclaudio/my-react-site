@@ -1,20 +1,21 @@
+import { combineReducers } from 'redux';
 import constants from '../constants';
 
 const projects = (state = [], action) => {
   switch (action.type) {
     case constants.LOAD:
-      return [...state, action.payload];
+      return [...state];
     case constants.LOADING:
-      return [...state, action.payload];
+      return [...state];
     case constants.FILTER:
-      return [...state, {}];
+      return [...state, action.payload];
     case constants.ORDER:
-      return [...state, {}];
+      return [...state, action.payload];
     case constants.ERROR:
-      return [...state, {}];
+      return [...state];
     default:
       return state;
   }
 };
 
-export default projects;
+export default combineReducers({ projects });
