@@ -1,27 +1,27 @@
 module.exports = {
-  entry: "./src/index.js",
+  entry: './src/index.js',
   output: {
-    path: "/dist/assets",
-    filename: "bundle.js",
-    publicPath: "assets"
+    path: '/dist/assets',
+    filename: 'bundle.js',
+    publicPath: 'assets',
   },
   devServer: {
     inline: true,
-    contentBase: "./dist",
-    port: 3000
+    contentBase: './dist',
+    port: 3000,
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
       },
       {
         test:/\.json$/,
         exclude: /(node_modules)/,
-        loader: 'json-loader'
-      }
-    ]
-  }
-}
+        loader: 'json-loader',
+      },
+    ],
+  },
+};
