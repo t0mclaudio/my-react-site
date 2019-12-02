@@ -18,4 +18,11 @@ const projects = (state = [], action) => {
   }
 };
 
-export default combineReducers({ projects });
+const technologies = (state = [], action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
+export default combineReducers({ projects, technologies });
