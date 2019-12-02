@@ -29,4 +29,5 @@ export default {
         img: 'image url',
       },
     ],
+  technologies: ['ReactJS', 'Redux', 'Django', 'Python', 'Vue', 'Flask', 'HTML/CSS'],
 };
