@@ -21,6 +21,7 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^6.7.2",
     "expect": "^24.9.0",
     "jest": "^24.9.0",
     "react-test-renderer": "^16.12.0",
