@@ -5,7 +5,7 @@ export default () => (
     <h1>Tom Claudio</h1>
     <h2>Software Developer</h2>
     <h3>About Me</h3>
-    <div className='about-me'>
+    <div className="about-me">
       <p>I like to work on projects that benefit people - that is how I perceive my value to the things I am working on and to the people I am working with. I believe that great digital transformation efforts are focused on improving the way we live.</p>
       <p>My knowledge in web technologies, while transient, allows me to participate in these efforts of creating something that people can actually use. The transient nature of technology constantly allows me to relearn fundamentals while learning and trying new ways of doing things. I trust the accumulation of these knowledge, experience, skills and the proper mindset allows me to push the boundaries of what can be accomplished.</p>
       <p>I believe programming languages, frameworks, and libraries can be learned and complex problems can be solved, however, the willingness to go at it is an attitude that I constantly cultivate.</p>

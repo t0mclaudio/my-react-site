@@ -3,7 +3,7 @@ import React from 'react';
 export default () => (
   <section id="banner">
     <div>
-      <img id="photo" src="img/tom.jpeg" />
+      <img id="photo" alt="Tom Claudio" src="img/tom.jpeg" />
       <h2 className="m-0">Tom Claudio</h2>
       <small className="m-0">Senior Front End Engineer</small>
     </div>

@@ -18,5 +18,5 @@ export default () => (
         <AboutPage />
       </Route>
     </Switch>
-  </Router >
-)
+  </Router>
+);
