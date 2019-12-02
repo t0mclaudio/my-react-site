@@ -1,36 +1,19 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-export default () => (
+import Project from './Project';
+
+
+const Projects = (props) => (
   <section id="projects">
-    <div className="card">
-      <div className="card-img-container">
-        <img src="" alt="" />
-      </div>
-      <div className="container">
-        <h4><b>Fresh Studio Website</b></h4>
-        <p>Fresh Studio</p>
-        <p>Html, CSS, Joomla, Php</p>
-      </div>
-    </div>
-    <div className="card">
-      <div className="card-img-container">
-        <img src="" alt="" />
-      </div>
-      <div className="container">
-        <h4><b>Fresh Studio Website</b></h4>
-        <p>Fresh Studio</p>
-        <p>Html, CSS, Joomla, Php</p>
-      </div>
-    </div>
-    <div className="card">
-      <div className="card-img-container">
-        <img src="" alt="" />
-      </div>
-      <div className="container">
-        <h4><b>Fresh Studio Website</b></h4>
-        <p>Fresh Studio</p>
-        <p>Html, CSS, Joomla, Php</p>
-      </div>
-    </div>
+    {
+      props.projects.map((proj, i) => (
+        <Project key={i} />
+      ))
+    }
   </section>
 );
+
+const mapStateToProps = (props) => ({ projects: props.projects });
+
+export default connect(mapStateToProps)(Projects);
