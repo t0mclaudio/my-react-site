@@ -11,7 +11,7 @@ export default {
         img: 'image url',
       },
       {
-        name: 'Project 1',
+        name: 'Project 2',
         short: 'This is going to be a short description',
         long: 'This is the longer description',
         technologies: ['html', 'css', 'react'],
@@ -20,7 +20,7 @@ export default {
         img: 'image url',
       },
       {
-        name: 'Project 1',
+        name: 'Project 3',
         short: 'This is going to be a short description',
         long: 'This is the longer description',
         technologies: ['html', 'css', 'react'],
