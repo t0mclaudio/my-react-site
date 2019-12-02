@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Banner from './Banner';
 import Projects from './Projects';
+import Filters from './Filters';
 
 export default () => (
   <div>
@@ -10,6 +11,9 @@ export default () => (
       <Link to="/about-me">About Me</Link>
     </section>
     <Banner />
-    <Projects />
+    <section id="body">
+      <Filters />
+      <Projects />
+    </section>
   </div>
 );
