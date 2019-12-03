@@ -30,4 +30,5 @@ export default {
       },
     ],
   technologies: ['ReactJS', 'Redux', 'Django', 'Python', 'Vue', 'Flask', 'HTML/CSS'],
+  filters: [],
 };
