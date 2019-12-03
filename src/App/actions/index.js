@@ -6,8 +6,3 @@ export const Filter = (e) => ({
   type: CONSTANTS.FILTER,
   payload: e,
 });
-
-export const FilterProjects = (filters) => ({
-  type: CONSTANTS.UPDATE,
-  payload: filters,
-});
