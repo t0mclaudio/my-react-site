@@ -8,12 +8,12 @@ import Project from './Project';
 const Projects = (props) => (
   <section id="projects">
     {
-      props.projects.map((proj) => (
+      props.data.projects.filtered.map((proj) => (
         <Project key={proj.name} proj={proj} />
       ))
     }
   </section>
 );
 
-const mapStateToProps = (props) => ({ projects: props.projects });
+const mapStateToProps = (props) => ({ data: props });
 export default connect(mapStateToProps)(Projects);

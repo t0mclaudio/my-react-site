@@ -1,23 +1,13 @@
-import constants from '../constants';
+/* eslint-disable import/prefer-default-export */
+/* eslint-disable no-unused-vars */
+import CONSTANTS from '../CONSTANTS';
 
-export const LoadData = () => ({
-  type: constants.LOAD,
+export const Filter = (e) => ({
+  type: CONSTANTS.FILTER,
+  payload: e,
 });
 
-export const Loading = () => ({
-  type: constants.LOADING,
-});
-
-export const Filter = (type) => ({
-  type: constants.FILTER,
-  payload: type,
-});
-
-export const Order = (type) => ({
-  type: constants.ORDER,
-  payload: type,
-});
-
-export const Error = () => ({
-  type: constants.ERROR,
+export const FilterProjects = (filters) => ({
+  type: CONSTANTS.UPDATE,
+  payload: filters,
 });
