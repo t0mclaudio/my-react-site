@@ -9,7 +9,7 @@ configure({ adapter: new Adapter() });
 
 describe('Project component test', () => {
   it('Renders correctly', () => {
-    const proj = initialState.projects[0];
+    const proj = initialState.projects.src[0];
     const wrapper = shallow(<Project key={proj.name} proj={proj} />);
     expect(wrapper.find('.project')).toHaveLength(1);
   });
