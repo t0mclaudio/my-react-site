@@ -9,7 +9,7 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    contentBase: './',
+    contentBase: 'dist/',
     port: 3000,
   },
   module: {
