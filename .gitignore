@@ -1,5 +1,3 @@
 .DS_Store
 node_modules/
-dist/img/
 __snapshots__/
-dist/icons/
