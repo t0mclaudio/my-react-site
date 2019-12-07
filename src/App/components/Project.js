@@ -5,12 +5,12 @@ import React from 'react';
 export default (props) => (
   <div className="project card">
     <div className="card-img-container">
-      <img src="" alt="" />
+      <img src={`../icons/${props.proj.img}`} alt="" />
     </div>
-    <div className="container">
+    <div className="card-content">
       <h4><b>{props.proj.name}</b></h4>
-      <p>{props.proj.short}</p>
-      <p>{props.proj.technologies.join()}</p>
+      <p className="short">{props.proj.short}</p>
+      <p className="tech"><small>{props.proj.technologies.join()}</small></p>
     </div>
   </div>
 );

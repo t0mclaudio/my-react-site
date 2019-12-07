@@ -65,9 +65,18 @@ body {
 
 .card-img-container {
   width: 100%;
-  background-color: #353b48;
+  border-bottom: 1px solid #dcdde1;
   border-radius: 4px 4px 0 0;
-  padding-top: 62.5%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  height: 120px;
+}
+
+.card-img-container img {
+  width: 110px;
+  height: auto;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -76,8 +85,20 @@ body {
 }
 
 /* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
+.card-content {
+  padding: 2px 8px;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.card-content h4, .card-content .short {
+  margin: 8px 0;
+  padding: 0;
+}
+
+.card-content .tech {
+  margin-top: auto;
 }
 
 #body {
