@@ -8,7 +8,7 @@ import Filters from './Filters';
 export default () => (
   <div>
     <section id="navbar">
-      <Link to="/about-me">About Me</Link>
+      <Link to="/about-me" target="_blank">About Me</Link>
     </section>
     <Banner />
     <section id="body">
