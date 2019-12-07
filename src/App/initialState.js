@@ -106,10 +106,20 @@ const initialState = {
     ],
     filtered: [],
     filters: [],
+    technologies: [],
   },
   technologies: ['ReactJS', 'Redux', 'Django', 'Python', 'Vue', 'Flask', 'HTML/CSS'],
 };
 
 initialState.projects.filtered = initialState.projects.src;
+const technologies = [];
+initialState.projects.src.forEach((proj) => {
+  proj.technologies.forEach((item) => {
+    if (!technologies.includes(item)) {
+      technologies.push(item);
+    }
+  });
+});
 
+initialState.technologies = technologies.sort();
 export default initialState;
