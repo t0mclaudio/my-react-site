@@ -5,7 +5,7 @@ import React from 'react';
 export default (props) => (
   <div className="project card">
     <div className="card-img-container">
-      <img src={`/icons/${props.proj.img}`} alt="" />
+      <img src={`/dist/icons/${props.proj.img}`} alt="" />
     </div>
     <div className="card-content">
       <h4><b>{props.proj.name}</b></h4>
