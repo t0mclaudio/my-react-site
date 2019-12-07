@@ -2,12 +2,12 @@
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable max-len */
 import { combineReducers } from 'redux';
-import CONSTANTS from '../CONSTANTS';
+import constants from '../constants';
 import initialState from '../initialState';
 
 const projects = (state = initialState, action) => {
   switch (action.type) {
-    case CONSTANTS.FILTER: {
+    case constants.FILTER: {
       const { value, checked } = action.payload.target;
       const newFilters = checked 
         ? [...state.filters, value] 
