@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+  FaLinkedinIn,
+  FaTwitterSquare,
+  FaGithub
+} from 'react-icons/fa';
 
 export default () => (
   <section id="banner">
@@ -8,5 +13,10 @@ export default () => (
       <small className="m-0">Senior Front End Engineer</small>
     </div>
     <p id="lead-text">Tom is a frontend engineer with 10+ years experience building full stack web applications.</p>
+    <div>
+      <FaLinkedinIn />
+      <FaTwitterSquare />
+      <FaGithub />
+    </div>
   </section>
 );
